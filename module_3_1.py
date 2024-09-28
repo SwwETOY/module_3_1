@@ -12,7 +12,7 @@ def string_info(string): # Функция string_info с параметром st
                                                          # в верхнем регистре + нижнем регистре
 
 
-def is_contains(string, list_to_search):
+def is_contains(string, list_to_search): # функция is_contains с параметрами string и list_to_search
     count_calls() # счётчик +1
     return string.upper() in [s.upper() for s in list_to_search]
 
